@@ -44,7 +44,7 @@ version: "3"
 services:
   server:
     container_name: clickhouse-server
-    image: yandex/clickhouse-server:21.8.10
+    image: yandex/clickhouse-server:22.3
     user: clickhouse
     ports:
       - "8123:8123"
@@ -87,6 +87,7 @@ pipy-repo-85b756c885-zv5c9   1/1     Running   0          20s
 ```
 
 **Init springboot codebase:**
+Before creating the codebase, please review the pipy repo address in `init-repo.sh`.
 
 ```shell
 pushd scripts/springboot
@@ -94,7 +95,8 @@ pushd scripts/springboot
 popd
 ```
 
-**Init bookinfo codebase:**
+**Init bookinfo codebase:** 
+Before creating the codebase, please review the pipy repo address in `init-repo.sh`.
 
 ```shell
 pushd scripts/bookinfo
@@ -103,7 +105,7 @@ popd
 ```
 
 **Init dubbo codebase**
-
+Before creating the codebase, please review the pipy repo address in `init-repo.sh`.
 ```shell
 pushd scripts/dubbo
 ./init-repo.sh

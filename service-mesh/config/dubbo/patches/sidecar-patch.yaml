@@ -15,7 +15,7 @@ spec:
         - name: cache-volume
           emptyDir: {}
       containers:
-        - image: flomesh/pipy-pjs:0.4.0-328
+        - image: flomesh/pipy:0.30.0-184
           name: sidecar
           command:
             - /usr/local/bin/pipy

@@ -185,7 +185,7 @@ spec:
               fieldPath: status.hostIP
         - name: DISCOVERY_SERVICE
           value: samples-discovery-server:8761
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy:0.30.0-184
         name: sidecar
       - image: flomesh/examples-bookinfo-details-v1:latest
         imagePullPolicy: Always
@@ -277,7 +277,7 @@ spec:
               fieldPath: status.hostIP
         - name: DISCOVERY_SERVICE
           value: samples-discovery-server:8761
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy:0.30.0-184
         name: sidecar
       - image: flomesh/examples-bookinfo-productpage-v1:latest
         imagePullPolicy: Always
@@ -375,7 +375,7 @@ spec:
               fieldPath: status.hostIP
         - name: DISCOVERY_SERVICE
           value: samples-discovery-server:8761
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy:0.30.0-184
         name: sidecar
       - image: flomesh/examples-bookinfo-ratings-v1:latest
         imagePullPolicy: Always
@@ -470,7 +470,7 @@ spec:
               fieldPath: status.hostIP
         - name: DISCOVERY_SERVICE
           value: samples-discovery-server:8761
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy:0.30.0-184
         name: sidecar
       - env:
         - name: LOG_DIR
@@ -578,7 +578,7 @@ spec:
               fieldPath: status.hostIP
         - name: DISCOVERY_SERVICE
           value: samples-discovery-server:8761
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy:0.30.0-184
         name: sidecar
       - env:
         - name: LOG_DIR
@@ -686,7 +686,7 @@ spec:
               fieldPath: status.hostIP
         - name: DISCOVERY_SERVICE
           value: samples-discovery-server:8761
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy:0.30.0-184
         name: sidecar
       - env:
         - name: LOG_DIR

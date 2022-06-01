@@ -2,7 +2,7 @@
 
 set -exu
 #### local repo
-REPO_HOST=localhost:30060
+REPO_HOST=node1:30060
 REPO_NAME=springboot
 
 # check pipy repo running
